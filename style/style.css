@@ -1,0 +1,100 @@
+body {
+   margin: 0;
+   font-size: 22px;
+   font-weight: 500;
+   color: #177165;
+   font-family: "Roboto", serif;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+.header {
+   background-color: #177165;
+}
+
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 0 10px;
+}
+
+.header-top {
+   display: flex;
+   justify-content: space-between;
+   padding: 24px 0;
+}
+
+.header__logo {
+   display: flex;
+   align-items: center;
+}
+
+.logo__img {
+   width: 196px;
+   height: 59px;
+}
+
+.header__menu {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.menu__list {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   display: flex;
+   gap: 50px;
+}
+
+.menu__link {
+   font-size: 15px;
+   color: #A4D6CF;
+   transition: color 0.3s ease;
+}
+
+.menu__link:hover {
+   color: #fff;
+   transform: scale(1.1);
+}
+
+.header__phone {
+   min-width: 170px;
+   display: flex;
+   align-items: center;
+}
+
+.phone__logo {
+   width: 44px;
+   height: 44px;
+}
+
+.phone__list {
+   padding-left: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 9px;
+}
+
+.phone__item {
+   font-size: 15px;
+   color: #A4D6CF;
+}
+
+.phone__link {
+   color: #fff;
+   transition: color 0.3s ease;
+}
+
+.phone__link:hover {
+   color: #A4D6CF;
+   transform: scale(1.1);
+}
