@@ -6,47 +6,61 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
    <link rel="stylesheet" href="style/style.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
    <header class="header">
-      <div class="container">
+      <div class="container-header">
+         <div class="header__inner">
+            <div class="header-top">
 
-         <div class="header-top">
+               <div class="header__logo">
+                  <a href="#" class="logo">
+                     <img src="image/logo.svg" alt="logo icon" class="logo__img">
+                  </a>
+               </div>
 
-            <div class="header__logo">
-               <a href="#" class="logo">
-                  <img src="image/logo.svg" alt="logo icon" class="logo__img">
-               </a>
-            </div>
+               <div class="header__menu">
+                  <nav class="menu" aria-label="Main navigation">
+                     <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Pages</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+                     </ul>
+                  </nav>
+               </div>
 
-            <div class="header__menu">
-               <nav class="menu" aria-label="Main navigation">
-                  <ul class="menu__list">
-                     <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-                     <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-                     <li class="menu__item"><a class="menu__link" href="#">Pages</a></li>
-                     <li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
-                     <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+               <div class="header__phone">
+                  <img class="phone__logo" src="image/phone.svg" alt="phone contact icon">
+                  <ul class="phone__list">
+                     <li class="phone__item">Call us:</li>
+                     <li class="phone__item"><a href="tel:+0089458648" class="phone__link">+00 89 458 648</a></li>
                   </ul>
-               </nav>
-            </div>
+               </div>
 
-            <div class="header__phone">
-               <img class="phone__logo" src="image/phone.svg" alt="phone contact icon">
-               <ul class="phone__list">
-                  <li class="phone__item">Call us:</li>
-                  <li class="phone__item"><a href="tel:+0089458648" class="phone__link">+00 89 458 648</a></li>
-               </ul>
             </div>
-
          </div>
+      </div>
 
+      <div class="container-all">
+         <div class="header-content">
+
+            <div class="header-content__inner">
+
+               <div class="header-content__box">
+                  <p class="header-text"> - Make a garden with musion.</p>
+                  <h1 class="header__title">If you have a garden and a library, you have everything you need.</h1>
+                  <p class="header-content__text">- Marcus Tullius Cicero</p>
+                  <a href="#" aria-label="View all services" class="header-content__btn">All Services</a>
+               </div>
+
+               <img src="./image/grandpa.jpg" alt="grandpa img" class="header-content__img" loading="lazy">
+            </div>
+         </div>
       </div>
 
    </header>
