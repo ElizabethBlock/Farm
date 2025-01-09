@@ -135,6 +135,7 @@ a {
    padding-right: 93px;
    line-height: 1.3;
    margin: 30px 0;
+   letter-spacing: 2px;
 }
 
 .header-content__btn {
@@ -147,12 +148,13 @@ a {
    border: #177165 2px solid;
 }
 
-.header-content__btn:hover {
+.header-content__btn:hover,
+.servise__btn:hover {
    background-color: #1771659e;
    color: #fff;
    transition: all 0.8s;
    border: #fff 1px solid;
-} 
+}
 
 .header-content__img {
    width: 550px;
@@ -170,20 +172,24 @@ a {
    width: 1140px;
 }
 
-.p-text {
-   font-size: 18px;
+.p-text,
+.text {
+   font-size: 20px;
    color: #777;
    font-weight: 300;
 }
 
-.title {
+.title,
+.our__title {
    margin: 28px 0 55px;
    font-family: 'Playfair Display', serif;
    font-weight: 100;
    color: #177165;
    font-size: 48px;
    line-height: 1.4;
+   letter-spacing: 2px;
 }
+
 .about__inner {
    margin-bottom: 97px;
    display: flex;
@@ -195,14 +201,17 @@ a {
    height: 872px;
 }
 
-.about_g, .about_q {
+.about_g,
+.about_q {
    font-family: 'Playfair Display', serif;
    font-weight: 100;
    color: #177165;
    font-size: 32px;
 }
 
-.about_p, .about_r, .about_t {
+.about_p,
+.about_r,
+.about_t {
    font-size: 16px;
    color: #777;
    font-weight: 300;
@@ -227,4 +236,66 @@ a {
    color: #fff;
    background-color: #177165;
    transition: all 0.8s;
+}
+
+
+.our {
+   background-color: #E1F4F2;
+   height: 950px;
+}
+
+.our__text {
+   padding-top: 100px;
+
+}
+
+.cont__our {
+   width: 1140px;
+   margin: 0 auto;
+}
+
+.text-f,
+.text-r,
+.text-w,
+.text-p {
+   font-size: 22px;
+   color: #777;
+   font-weight: 300;
+   margin-bottom: 10px;
+}
+
+.pl_fl,
+.tr-pl,
+.ru-re,
+.ga-wa {
+   font-size: 27px;
+   font-family: 'Playfair Display', serif;
+   font-weight: 100;
+   color: #177165;
+   margin-top: 8px;
+}
+
+.content__block {
+   display: flex;
+   justify-content: space-between;
+}
+
+.btn__container {
+   text-align: center;
+   margin-top: 72px;
+}
+
+.servise__btn {
+   font-size: 18px;
+   color: #177165;
+   padding: 13px 65px;
+   border: #177165 3px solid;
+}
+
+.servise__btn:hover {
+   color: #E1F4F2;
+   background-color: #177165aa;
+   transition: all 0.8s;
+   border: #177165aa 3px solid;
+
 }
