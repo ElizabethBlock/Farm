@@ -6,6 +6,10 @@ body {
    font-family: "Roboto", serif;
 }
 
+section {
+   overflow: hidden;
+}
+
 li {
    list-style: none;
 }
@@ -173,14 +177,15 @@ a {
 }
 
 .p-text,
-.text {
+.text,
+.call-text {
    font-size: 20px;
    color: #777;
    font-weight: 300;
 }
 
 .title,
-.our__title {
+.our__title, .call-text__bl {
    margin: 28px 0 55px;
    font-family: 'Playfair Display', serif;
    font-weight: 100;
@@ -297,5 +302,43 @@ a {
    background-color: #177165aa;
    transition: all 0.8s;
    border: #177165aa 3px solid;
+}
 
+.call {
+   background-color: #177165;
+   height: 375px;
+}
+
+.call__cont {
+   width: 1140px;
+   margin: 76px auto;
+}
+
+.call-text {
+   color: #A4D6CF;
+}
+
+.call-block{
+   display: flex;
+   justify-content: space-between;
+}
+
+.call-text__bl {
+   color: #fff;
+   width: 640px;
+   margin: 0;
+   font-size: 44px;
+}
+
+.call__phone {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 470px;
+   height: 113px;
+   background-color: #23786D; 
+}
+
+.phone__item {
+   font-size: 21px;
 }
