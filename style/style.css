@@ -144,7 +144,15 @@ a {
    font-size: 16px;
    color: #177165;
    margin-top: 23px;
+   border: #177165 2px solid;
 }
+
+.header-content__btn:hover {
+   background-color: #1771659e;
+   color: #fff;
+   transition: all 0.8s;
+   border: #fff 1px solid;
+} 
 
 .header-content__img {
    width: 550px;
@@ -212,5 +220,11 @@ a {
    font-size: 16px;
    color: #177165;
    padding: 13px 65px;
-   border: #177165 3px solid;
+   border: #177165 2px solid;
+}
+
+.leam__more:hover {
+   color: #fff;
+   background-color: #177165;
+   transition: all 0.8s;
 }
