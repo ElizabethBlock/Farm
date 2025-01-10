@@ -185,7 +185,8 @@ a {
 }
 
 .title,
-.our__title, .call-text__bl {
+.our__title,
+.call-text__bl {
    margin: 28px 0 55px;
    font-family: 'Playfair Display', serif;
    font-weight: 100;
@@ -216,10 +217,13 @@ a {
 
 .about_p,
 .about_r,
-.about_t {
+.about_t,
+.text_d,
+.text_f,
+.text_s {
    font-size: 16px;
    color: #777;
-   font-weight: 300;
+   font-weight: 400;
 }
 
 .about_p {
@@ -318,7 +322,7 @@ a {
    color: #A4D6CF;
 }
 
-.call-block{
+.call-block {
    display: flex;
    justify-content: space-between;
 }
@@ -336,9 +340,62 @@ a {
    justify-content: center;
    width: 470px;
    height: 113px;
-   background-color: #23786D; 
+   background-color: #23786D;
 }
 
 .phone__item {
    font-size: 21px;
+}
+
+.team__section {
+   width: 1140px;
+   margin: 0 auto;
+}
+
+.t_block {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.team__text {
+   display: flex;
+   flex-direction: column;
+   width: 656px;
+   padding-top: 100px;
+}
+
+.team__block {
+   display: flex;
+   justify-content: space-between;
+   padding: 50px 0;
+}
+
+.team-text__bl {
+   font-family: 'Playfair Display', serif;
+   font-size: 48px;
+   color: #177165;
+   font-weight: 100;
+   margin: 10px 0;
+}
+
+.img__founder,
+.img__senior,
+.img__designer {
+   width: 347px;
+   height: 528px;
+}
+
+.btext_d,
+.btext_f,
+.btext_s {
+   font-family: 'Playfair Display', serif;
+   font-size: 26px;
+   color: #177165;
+   font-weight: 100;
+}
+
+.text_d,
+.text_f,
+.text_s {
+   width: 293px;
 }
