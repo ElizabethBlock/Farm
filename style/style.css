@@ -404,16 +404,14 @@ a {
 .leaf__cont {
    height: 415px;
    background-color: #177165;
+   margin-bottom: 50px;
 }
 
 .leaf__block {
    display: flex;
    align-items: center;
    justify-content: center;
-   
-   width: 1440px;
    height: 415px;
-   
 }
 
 .intro-text__block {
@@ -441,6 +439,50 @@ a {
 
 .img_leaf {
    width: 570px;
-   height: 417px;
+   height: 419px;
    padding: 0;
+}
+
+
+.number__cont {
+   margin: 50px auto;
+   background-color: #E1F4F2;
+   height: 230px;
+   width: 1140px;
+}
+
+.numb__block {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 230px;
+}
+
+.numb-tx {
+   font-size: 40px;
+   color: #177165;
+   font-weight: 400;
+   margin: 7px 0;
+   text-align: center;
+}
+
+.tx {
+   font-size: 18px;
+   color: #777;
+   margin: 7px 0;
+   text-align: center;
+
+}
+
+.js {
+   margin: 0 auto;
+   width: 1140px;
+   height: 700px;
+   background-color: red;
+   visibility: hidden;
+}
+
+.response__cont {
+   background-color: #E1F4F2;
+   height: 802px;
 }
