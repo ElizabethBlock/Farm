@@ -29,7 +29,7 @@ a {
 .container-header {
    max-width: 1440px;
    margin: 0 auto;
-   padding: 0 10px;
+   padding: 0 70px;
 }
 
 .header-top {
@@ -305,7 +305,7 @@ a {
    color: #E1F4F2;
    background-color: #177165aa;
    transition: all 0.8s;
-   border: #177165aa 3px solid;
+   border: #E1F4F2 3px solid;
 }
 
 .call {
@@ -392,10 +392,55 @@ a {
    font-size: 26px;
    color: #177165;
    font-weight: 100;
+   margin: 26px 0;
 }
 
 .text_d,
 .text_f,
 .text_s {
    width: 293px;
+}
+
+.leaf__cont {
+   height: 415px;
+   background-color: #177165;
+}
+
+.leaf__block {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   width: 1440px;
+   height: 415px;
+   
+}
+
+.intro-text__block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 570px;
+   height: 415px;
+}
+
+.intro-text {
+   font-size: 17px;
+   color: #A4D6CF;
+   margin: 5px 0;
+}
+
+.leaf-text__bl {
+   color: #fff;
+   font-size: 48px;
+   font-family: 'Playfair Display', serif;
+   font-weight: 100;
+   padding-right: 60px;
+   margin: 7px 0;
+}
+
+.img_leaf {
+   width: 570px;
+   height: 417px;
+   padding: 0;
 }
