@@ -636,6 +636,7 @@ span {
    font-family: 'Playfair Display', serif;
    font-weight: 100;
    width: 200px;
+   padding-bottom: 50px;
 }
 
 .foot__call {
@@ -693,4 +694,35 @@ span {
 .a_end:hover {
    color: #177165;
    transition: all 0.4s;
+}
+
+.exp,
+.inf,
+.ser {
+   display: flex;
+   flex-direction: column;
+}
+
+.gal__block {
+   display: flex;
+   align-items: center;
+}
+
+.img_gal {
+   width: 14px;
+   height: 52px;
+   padding-right: 10px;
+}
+
+.gal_text {
+   font-size: 17px;
+   color: #fff;
+   font-weight: 200;
+}
+
+.gal_text:hover {
+   font-size: 20px;
+   color: #A4D6CF;
+   transition: all 0.3s;
+   text-decoration: underline;
 }
