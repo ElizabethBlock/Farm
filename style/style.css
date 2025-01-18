@@ -1,8 +1,9 @@
 * {
+   /* outline: 1px solid red; */
 }
 
+
 body {
-   /* overflow-x: hidden; */
    margin: 0;
    font-size: 22px;
    font-weight: 500;
@@ -12,6 +13,8 @@ body {
 
 section {
    overflow: hidden;
+   max-width: 100%;
+   box-sizing: border-box;
 }
 
 li {
@@ -27,6 +30,7 @@ a {
 }
 
 .container-header {
+   box-sizing: border-box;
    margin: 0 auto;
    padding: 0 70px;
    max-width: 100%;
@@ -166,8 +170,11 @@ a {
 }
 
 .header-content__img {
-   width: 550px;
-   height: 844px;
+   /* width: 550px;
+   height: 844px; */
+
+   max-width: 100%;
+   height: auto;
 }
 
 .header-content__img {
