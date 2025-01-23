@@ -2,6 +2,10 @@
    /* outline: 1px solid red; */
 }
 
+html,
+body {
+   overflow-x: hidden;
+}
 
 body {
    margin: 0;
@@ -32,8 +36,9 @@ a {
 .container-header {
    box-sizing: border-box;
    margin: 0 auto;
-   padding: 0 70px;
+   /* padding: 0 70px; */
    max-width: 100%;
+   /* width: 1140px; */
 }
 
 .header-top {
@@ -43,6 +48,81 @@ a {
    width: 1140px;
    margin: 0 auto;
 }
+
+.header__inner {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.burger {
+   display: none;
+   width: 50px;
+   height: 50px;
+   position: relative;
+   z-index: 2;
+   padding-right: 100px;
+   overflow: hidden;
+   margin-top: 20px;
+}
+
+.burger span {
+   width: 50px;
+   height: 2px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #fff;
+   /* margin-top: 40px; */
+   transition: all 0.5s;
+}
+
+.burger span:nth-of-type(2) {
+   top: calc(50% - 10px);
+}
+
+.burger span:nth-of-type(3) {
+   top: calc(50% + 10px);
+}
+
+.menuB {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   padding: 100px 0 100px 50px;
+   transform: translate(-100%);
+   background-color: rgba(0, 0, 0, 0.618);
+   transition: all 0.5s;
+   text-align: center;
+}
+
+.menuB.active {
+   transform: translateX(0);
+}
+
+.burger.active span:first-of-type {
+   transform: translateX(200%);
+}
+
+.burger.active span:nth-child(2) {
+   top: 50%;
+   transform: translate(-30%, -50%) rotate(45deg);
+}
+
+.burger.active span:nth-child(3) {
+   top: 50%;
+   transform: translate(-25%, 50%) rotate(-45deg);
+}
+
+.fck a {
+   color: red;
+   font-size: 80px;
+   text-decoration-color: red;
+}
+
+
 
 .header__logo {
    display: flex;
@@ -189,6 +269,10 @@ a {
    width: 1140px;
 }
 
+.container {
+   margin: 0 20px;
+}
+
 .p-text,
 .text {
    font-size: 20px;
@@ -215,8 +299,10 @@ a {
 }
 
 .about__inner-img {
-   width: 557px;
-   height: 872px;
+   /* width: 557px; */
+   /* height: 872px; */
+   max-width: 100%;
+   height: auto;
 }
 
 .about_g,
@@ -266,8 +352,8 @@ a {
 }
 
 .our__text {
-   padding-top: 100px;
-
+   padding-top: 80px;
+   height: 765px;
 }
 
 .cont__our {
@@ -299,7 +385,10 @@ a {
 .content__block {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
+   /* width: 1140px; */
 }
+
 
 .btn__container {
    text-align: center;
@@ -424,6 +513,7 @@ a {
    height: 415px;
    background-color: #177165;
    margin-bottom: 50px;
+   padding: 0 10px;
 }
 
 .leaf__block {
